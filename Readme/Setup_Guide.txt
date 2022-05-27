@@ -1,0 +1,27 @@
+	step 1 : Create Meatamask Accounts
+			
+			Store the 12 Word Message is Require when in Factory.js paste it and Save it
+			 https://rinkeby.etherscan.io/address/0x01e08080fbd94db7a077c1972378a6eafbdd7eb7
+
+	Step 2 : Create API for the projects 
+			Click on Create Project Select Etherium Project Create Project.  
+			https://infura.io/dashboard/stats/ethereum/24h/427b8fa5d841409aa68fe30f9b6f00d4
+				
+				Goto the Setting And Select the Endpoint option Select Rinkeby Option and Select the first Link
+				https://rinkeby.infura.io/v3/427b8fa5d841409aa68fe30f9b6f00d4
+				after copy save it in deploy.js file and web3.js file.
+
+
+	Step 3 : Create the firebase database firste create ac the login "https://firebase.google.com/"
+			creation of ac login and add new Project --> Enter the Project Name -->Select countries-->finish
+			-->Project Overview --> Project Setting -->your app --> app nike name --> select firebase hosting
+			-->regiterapp --> genetate abi key and all things copy it --> paste it in file --> where componentDidMount()
+			--> method is found --> install firebase cli for your project.
+
+	step 4 : vs code terminal PS D:\Bprocure> cd .\ethereum\
+			run command --> node compile.js
+			after some time -- node deploy.js  // here generete key copy that key and paste it in factory.js file.
+			
+	step 5 : your project is ready to deploy 
+			run the command --> npm run dev
+			if yarn --> yarn dev
